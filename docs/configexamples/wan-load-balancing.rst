@@ -181,3 +181,19 @@ eth+ is used as an alias that refers to all ethernet interfaces:
    set load-balancing wan rule 5 destination address 10.0.0.0/8
 
 .. start_vyoslinter
+
+.. note::
+
+   Other interface aliases include:
+     - bond+
+     - en+
+     - eth+
+     - br+
+     - peth+
+     - vtun+
+     - tun+
+     - wlm+
+     - wlan+
+     - vxlan+
+     - vti+
+     - l2tpeth+
